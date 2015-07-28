@@ -1,3 +1,5 @@
+; Author: Overxfl0w13 ; 
+
 (define get-vecindario (lambda (i cautomata)
     (if (= i 0) (list (number->string (list-ref cautomata (- (length cautomata) 1))) (number->string (list-ref cautomata i)) (number->string (list-ref cautomata (+ i 1))))
     (if (= i (- (length cautomata) 1)) (list (number->string (list-ref cautomata (- i 1))) (number->string (list-ref cautomata i)) (number->string (list-ref cautomata 0)))
